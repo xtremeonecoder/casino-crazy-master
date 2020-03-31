@@ -18,7 +18,6 @@ firebase.json
 
 # backup dir
 /backup
-/documentation
 
 # misc
 .DS_Store

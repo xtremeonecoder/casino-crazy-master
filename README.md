@@ -8,11 +8,15 @@ The _**Casino Crazy Master**_ is a comprehensive and browser based slot game for
 
 ### Browser, Sound Effect and Graphics Compatibility Check:
 
-Load the _**Casino Crazy**_ Master game on your browser (best on Firefox or Chrome or Safari). The game is responsive and working on desktop, laptop, tablet but on smartphone only horizontal orientation shows responsive. Therefore, if you are playing the game on your smartphone, please do not forget to rotate your smartphone horizontally. Also the game comes with interactive graphics and soothing cool sound effect. So please make sure that your device web browser allows the game audio.
+Load the _**Casino Crazy Master**_ game on your browser (best on Firefox or Chrome or Safari). The game is responsive and working on desktop, laptop, tablet but on smartphone only horizontal orientation shows responsive. Therefore, if you are playing the game on your smartphone, please do not forget to rotate your smartphone horizontally. Also the game comes with interactive graphics and soothing cool sound effect. So please make sure that your device web browser allows the game audio.
+
+### Enable Browser Audio:
+
+![Enable Browser Audio](https://github.com/xtremeonecoder/casino-crazy-master/blob/master/documentation/enable-browser-sound.jpg)
 
 ### Players Requirements:
 
-Once the game is loaded on your device web browser, you are all set to play the game. Players need credits to play the game. Initially, the game will be credited by _**5000 Dollar**_. Please note that, the game playing credit is completely free rechargable for now. If the players are out of credits, they just need to reload the browser for re-credited by _**5000 Dollar**_ again.
+Once the game is loaded on your device web browser, you are all set to play the game. Players need credits to play the game. Initially, the game will be credited by _**5000 Dollar**_. Please note that, the game playing credit is completely free rechargable for now. If the players are out of credits, they just need to reload the browser to be re-credited by _**5000 Dollar**_ again.
 
 ### Playing Criteria:
 
@@ -58,8 +62,6 @@ _**Losers will be debited by their bet amount**_, i.e. the bet amount will be de
 
 ![Game Losing State](https://github.com/xtremeonecoder/casino-crazy-master/blob/master/documentation/losing-state.jpg)
 
-### Have fun guyz!
-
 ## Local Setup For Game:
 
 To run the game on local device, you need to have Node.js and React installed on your device. Just clone the game from the repository or download it.
@@ -77,3 +79,5 @@ _**- For packing the production build:**_ `npm run build` (it will take a while 
 _**- For installing test server on local machine for testing production build:**_ `npm i -g serve`
 
 _**- For serving production build, it will give an url for testing production:**_ `serve -s build` (it will give you a production build running link)
+
+### Have fun guyz!
