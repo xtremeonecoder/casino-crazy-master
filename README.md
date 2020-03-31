@@ -1,68 +1,79 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Casino Crazy Master - REACT Application:
 
-## Available Scripts
+The _**Casino Crazy Master**_ is a comprehensive and browser based slot game for people who love to play simple casino game online!
 
-In the project directory, you can run:
+### Live Demo URL: [Click Here to See The Live Demo](https://casino-crazy-master.firebaseapp.com/)
 
-### `npm start`
+## How to Play:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Browser, Sound Effect and Graphics Compatibility Check:
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Load the _**Casino Crazy**_ Master game on your browser (best on Firefox or Chrome or Safari). The game is responsive and working on desktop, laptop, tablet but on smartphone only horizontal orientation shows responsive. Therefore, if you are playing the game on your smartphone, please do not forget to rotate your smartphone horizontally. Also the game comes with interactive graphics and soothing cool sound effect. So please make sure that your device web browser allows the game audio.
 
-### `npm test`
+### Players Requirements:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Once the game is loaded on your device web browser, you are all set to play the game. Players need credits to play the game. Initially, the game will be credited by _**5000 Dollar**_. Please note that, the game playing credit is completely free rechargable for now. If the players are out of credits, they just need to reload the browser for re-credited by _**5000 Dollar**_ again.
 
-### `npm run build`
+### Playing Criteria:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+For playing the _**Casino Crazy Master**_, players need to bet any credit amount first by clicking on _**Bet One**_ button. The _**Bet Max**_ button allows the players to play the game with maximum credits. Note that players cannot play the game without betting any amount. After betting credit amounts, players need to click on _**Spin**_ button for start playing. The reels of the game round randomly and stop at any random positions.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Winner and Loser Calculation:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The reels stop at any random positions and there is a _**white horizontal shade**_ on the reels which contains a _**black thin line**_ which is called _**game winning line**_. Players having minimum two similar symbols on that winning black thin line will be considered as the _**Winner**_ of the game, otherwise _**Loser**_.
 
-### `npm run eject`
+### Winning and Losing Credit Calculation:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+_**Losers will be debited by their bet amount**_, i.e. the bet amount will be deducted from the Players' credit amount. _**Winners will be credited by double of bet amount**_, i.e. winning amount will be double of players' bet amount.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Technologies Used:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Backend: Backend for this game is not developed yet!
+- Frontend: React
+- Frontend: Object Oriented Javascript
+- Frontend: jQuery
+- Frontend: Javascript Object Notation (JSON)
+- Frontend: Bootstrap
+- Frontend: Font Awesome
+- Frontend: CSS
+- Frontend: HTML5
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Application Development and Testing Platform:
 
-## Learn More
+- Operating System: Windows7
+- Application Environment: Node.js
+- Tested on Development Server
+- Application Built on Webpack
+- Compiling Javascript Codes: Babel
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Game Initial State:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Game Initial State](https://github.com/xtremeonecoder/casino-crazy-master/blob/master/documentation/initial-state.jpg)
 
-### Code Splitting
+## Game Winning State:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+![Game Winning State](https://github.com/xtremeonecoder/casino-crazy-master/blob/master/documentation/winning-state.jpg)
 
-### Analyzing the Bundle Size
+## Game Losing State:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+![Game Losing State](https://github.com/xtremeonecoder/casino-crazy-master/blob/master/documentation/losing-state.jpg)
 
-### Making a Progressive Web App
+### Have fun guyz!
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## Local Setup For Game:
 
-### Advanced Configuration
+To run the game on local device, you need to have Node.js and React installed on your device. Just clone the game from the repository or download it.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+## Game Installation:
 
-### Deployment
+Open terminal in the project directory and follow the instructions below -
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+_**- For installing the game on local system:**_ `npm i` (it will take a while to install the game on local device)
 
-### `npm run build` fails to minify
+_**- For running the game on development mode:**_ `npm start` (it will open a browser tab on your device or open [http://localhost:3000](http://localhost:3000) to view it in the browser)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+_**- For packing the production build:**_ `npm run build` (it will take a while to build the game for production environment)
+
+_**- For installing test server on local machine for testing production build:**_ `npm i -g serve`
+
+_**- For serving production build, it will give an url for testing production:**_ `serve -s build` (it will give you a production build running link)

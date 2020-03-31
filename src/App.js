@@ -1,26 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+/**
+ * Slot Spinner - Game
+ *
+ * @category   Application_Frontend
+ * @package    slot-spinner
+ * @author     Suman Barua
+ * @developer  Suman Barua <sumanbarua576@gmail.com>
+ **/
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import React, { Component } from "react";
+import Spinner from "./components/Spinner/Spinner";
+import Footer from "./components/Layout/Footer";
+import "./App.css";
+
+class App extends Component {
+  state = {};
+  render() {
+    return (
+      <div className="container">
+        <div className="content">
+          <Spinner />
+          <Footer />
+        </div>
+      </div>
+    );
+  }
 }
 
 export default App;
